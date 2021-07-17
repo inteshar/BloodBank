@@ -1,0 +1,114 @@
+*{
+    font-family: 'Rajdhani', sans-serif;
+}
+body{
+    background-color: rgb(106, 158, 180);
+}
+nav a img{
+    height: 30px;
+    width:  30px;
+    float: left;
+}
+.navbar{
+    background-color: rgba(103, 231, 253, 0.7);
+    margin: 0%;
+}
+.background{
+    background-image: url(../images/bg-blood.jpg);
+    height: 93.4vh;
+    width: 100%;
+    background-size: cover;
+    padding-top: 230px;
+}
+.welcomeMsg{
+    background-color: rgba(255, 0, 0, 0.507);
+    height: 200px;
+    width: 800px;
+    padding: 30px 10%;
+    color: #fff;
+}
+.welcomeMsg h1{
+    font-size: 62px;
+    font-weight: 900;
+}
+.welcomeMsg p{
+    font-size: 20px;
+    font-weight: 500;
+}
+.welcomeMsg a{
+    padding: 10px;
+    border: 5px solid rgb(0, 0, 0);
+    border-radius: 30px;
+    background-color: #fff;
+    text-decoration: none;
+    color: black;
+    transition: 0.8s;
+}
+.welcomeMsg a:hover{
+    background-color: black;
+    color: #fff;
+    border: 5px solid rgb(0, 0, 0);
+    border-radius: 30px;
+    transition: 0.8s;
+}
+@media (max-width: 700px){
+    .background{
+        background-image: url(../images/bg-blood1.jpg);
+        height: 93.3vh;
+        width: 100%;
+        background-size:cover;
+        padding-top: 230px;
+    }
+    .welcomeMsg{
+        background-color: rgba(255, 0, 0, 0.507);
+        height: 200px;
+        width: 300px;
+        padding: 30px 10%;
+        color: #fff;
+    }
+    .welcomeMsg h1{
+        font-size: 32px;
+        font-weight: 400;
+    }
+    .welcomeMsg p{
+        font-size: 16px;
+        font-weight: 500;
+    }
+    .welcomeMsg a{
+        padding: 10px;
+        border: 2px solid white;
+        background-color: white;
+        text-decoration: none;
+        color: black;
+        transition: 0.8s;
+    }
+    .welcomeMsg a:hover{
+        background-color: black;
+        color: #fff;
+        border: 2px solid black;
+        transition: 0.8s;
+    }
+}
+#content{
+    margin-top: 20px;
+}
+.panel-style{
+    border: 2px solid rgba(103, 231, 253, 0.7);
+}
+.panel-heading{
+    background-color: rgba(103, 231, 253, 0.7);
+}
+.panel-footer{
+    background-color: rgba(103, 231, 253, 0.7);
+}
+.btn{
+    background-color: white;
+    border: 2px solid black;
+    transition: 00.8s;
+    color: black;
+}
+.btn:hover{
+    background-color: black;
+    color: #fff;
+    transition: 00.8s;
+}
